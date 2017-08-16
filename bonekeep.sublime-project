@@ -1,0 +1,32 @@
+{
+	"folders":
+	[
+		{
+			"path": "./inc/"
+		},
+		{
+			"path": "./src/"
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "Mingw32-make",
+			"working_dir": "${project_path:${folder}}",
+			"cmd": ["mingw32-make.exe"],
+
+			"variants": [
+				{ "name": "Build",
+				"cmd": ["mingw32-make.exe"],
+				"shell": true
+				},
+
+				{ "name": "Clean",
+				"cmd": ["mingw32-make.exe clean"],
+				"shell": true
+				}
+			]
+
+		}
+	]
+}

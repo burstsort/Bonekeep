@@ -1,0 +1,24 @@
+MAINICON ICON "icon.ico"
+GLFW_ICON ICON "icon.ico"
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "000004E4"
+    BEGIN
+      VALUE "CompanyName", "burst"
+      VALUE "FileDescription", "Iaito Engine"
+      VALUE "FileVersion", "1.0"
+      VALUE "InternalName", "iaito"
+      VALUE "LegalCopyright", "burst"
+      VALUE "OriginalFilename", "Iaito.exe"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x000, 1252
+  END
+END
