@@ -10,9 +10,10 @@ The main goal of the game is to collect tasty turkey legs while avoiding the spo
 For each collected turkey leg a new skeleton is added to the room, making the game more and more challenging.
 
 Player moves the avatar using the arrow keys.
+
 While the mouse cursor is over the game window additional collision debug information is displayed.
 Moving entities (player avatar and skeletons) turn red when the game detects a potential collision with the mouse cursor.
-These same entities turn green when the actual collision is detected. This demonstrates two phases of the collision detection system.
+These same entities turn green when the actual collision with the mouse is detected. This demonstrates two phases of the collision detection system.
 
 ## Engine info:
 The game is running on a custom game engine developed using C++.
