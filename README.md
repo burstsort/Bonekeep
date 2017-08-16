@@ -1,6 +1,6 @@
 # Bonekeep - custom engine showcase
 
-This simple game was made to demonstrate and test the main functionalities of my 2D game engine.
+This simple game was made to demonstrate and test the main functionalities of my 2D game engine that I'm working on.
 
 Executable and resource files required for the game are contained in the *bin* directory.
 
@@ -17,6 +17,8 @@ These same entities turn green when the actual collision with the mouse is detec
 
 ## Engine info:
 The game is running on a custom game engine developed using C++.
+
+**The engine itself is still a work in progress!**
 
 The engine is comprised of several pieces:
   - Entity manager
