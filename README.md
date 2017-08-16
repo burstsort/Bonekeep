@@ -2,6 +2,8 @@
 
 This simple game was made to demonstrate and test the main functionalities of my 2D game engine.
 
+Executable and resource files required for the game are contained in the *bin* directory.
+
 Sprites and music were borrowed from Castlevania.
 
 The main goal of the game is to collect tasty turkey legs while avoiding the spooky skeletons.
